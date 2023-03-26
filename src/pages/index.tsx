@@ -22,4 +22,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>wpeake.com</title>
+export const Head: HeadFC = () => <title>William Peake, Full-Stack Software Engineer based in London, UK.</title>
