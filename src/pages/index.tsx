@@ -1,6 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
-import { pageStyles, headingStyles, headingAccentStyles } from "./pageStyles"
+import { pageStyles, headingStyles, headingAccentStyles } from "../styles/pageStyles"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
