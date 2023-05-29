@@ -1,10 +1,9 @@
-import { fixedImageSizes } from "gatsby-plugin-image/dist/src/image-utils";
-
-export const pageStyles = {
+export const pageStyles: React.CSSProperties = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  height: 100-30,
+  minHeight: "50vh",
+  position: "relative",
 };
 export const headingStyles = {
   marginTop: 0,
@@ -16,6 +15,7 @@ export const headingAccentStyles = {
 };
 export const paragraphStyles = {
   marginBottom: 48,
+  lineHeight: 1.5,
 };
 export const codeStyles = {
   color: "#8A6534",
@@ -43,6 +43,11 @@ export const linkStyle = {
   fontSize: 16,
   verticalAlign: "5%",
 };
+export const imageLinkStyle = {
+  width: "2rem",
+  height: "2rem",
+  paddingRight: 30,
+};
 export const docLinkStyle = {
   ...linkStyle,
   listStyleType: "none",
@@ -57,6 +62,7 @@ export const descriptionStyle = {
   marginBottom: 0,
   lineHeight: 1.25,
 };
-export const footerStyles = {
-  marginTop: 250,
+export const footerStyles: React.CSSProperties = {
+  position: "absolute",
+  bottom: 20,
 };
