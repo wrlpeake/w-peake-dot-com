@@ -12,6 +12,7 @@ import {
 import linkedin from "../images/linkedin.png";
 import mail from "../images/mail.png";
 import github from "../images/github.png";
+import favicon from "../images/favicon.png";
 import "../styles/animation.css";
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -66,5 +67,8 @@ const IndexPage: React.FC<PageProps> = () => {
 export default IndexPage;
 
 export const Head: HeadFC = () => (
-  <title>William Peake | Full-Stack Software Engineer</title>
+  <head>
+    <title>William Peake | Full-Stack Software Engineer</title>
+    <link rel="icon" type="image/x-icon" href={favicon}></link>
+  </head>
 );
