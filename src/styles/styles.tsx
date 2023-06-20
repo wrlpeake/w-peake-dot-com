@@ -2,16 +2,19 @@ export const pageStyles: React.CSSProperties = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  minHeight: "50vh",
+  minHeight: "60vh",
   position: "relative",
 };
 export const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 320,
+  paddingTop: 10,
+  paddingRight: 10,
 };
-export const headingAccentStyles = {
+export const headingAccentStyles: React.CSSProperties = {
   color: "#663399",
+  clear: "right",
 };
 export const paragraphStyles = {
   marginBottom: 48,
@@ -36,6 +39,13 @@ export const listItemStyles = {
   fontSize: 24,
   maxWidth: 560,
   marginBottom: 30,
+};
+export const headshotStyle: React.CSSProperties = {
+  width: "15rem",
+  height: "15rem",
+  borderRadius: "50%",
+  float: "right",
+  padding: 10,
 };
 export const linkStyle = {
   color: "#8954A8",
@@ -64,5 +74,5 @@ export const descriptionStyle = {
 };
 export const footerStyles: React.CSSProperties = {
   position: "absolute",
-  bottom: 20,
+  bottom: 25,
 };
