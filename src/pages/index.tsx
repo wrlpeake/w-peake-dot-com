@@ -36,7 +36,7 @@ const IndexPage: React.FC<PageProps> = () => {
           other languages and frameworks, I am currently working for a global
           tech consultancy as a full-stack software developer and consultant. I
           found software development after a decade in sales and business
-          development, predominantely in media, spending the vast majority of my
+          development, predominantly in media, spending the vast majority of my
           time trying to understand client problems and design solutions to fit
           their needs. I apply this same thought process to software
           engineering, working with colleagues and clients to build high-quality
