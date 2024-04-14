@@ -55,6 +55,11 @@ const IndexPage: React.FC<PageProps> = () => {
           </p>
           <p style={paragraphStyles}>
             <code style={codeStyles}>
+              Previous experience: Ticketmaster, Munich Re Digital Partners, 8th Light
+            </code>
+          </p>
+          <p style={paragraphStyles}>
+            <code style={codeStyles}>
               For freelance enquires, please contact me via email or linkedin
               below. Thanks!
             </code>
