@@ -10,18 +10,20 @@ import {
   footerStyles,
   imageLinkStyle,
 } from "../styles/styles";
+import HeadshotComponent from "../components/headshot";
 import linkedin from "../images/linkedin.png";
 import mail from "../images/mail.png";
 import github from "../images/github.png";
 import favicon from "../images/favicon.png";
-import me from "../images/me.png";
+
 import "../styles/animation.css";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <html lang="en">
         <main style={pageStyles}>
-          <img src={me} style={headshotStyle} alt="A photo of me" />
+          {/* <img src={me} style={headshotStyle} alt="A photo of me" /> */}
+          <HeadshotComponent/>
           <h1 style={headingStyles}>
             William Peake
             <br />
