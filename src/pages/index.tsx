@@ -71,7 +71,7 @@ export default IndexPage;
 
 export const Head: HeadFC = () => (
   <head>
-    <title>William Peake | Full-Stack Software Engineer</title>
+    <title>William Peake | Software Engineer</title>
     <link rel="icon" type="image/x-icon" href={favicon}></link>
   </head>
 );
