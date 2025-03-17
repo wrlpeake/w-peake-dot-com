@@ -1,5 +1,5 @@
 
-# Developer Website - wpeake.com
+# wpeake.com
 
   ### Navigate into the  `w-peake-dot-com` directory to run the app locally:
 
