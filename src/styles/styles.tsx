@@ -1,7 +1,7 @@
 export const pageStyles: React.CSSProperties = {
   color: "#232129",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: "-apple-system, BlinkMacSystemFont, Roboto, sans-serif, serif",
   minHeight: "60vh",
   position: "relative",
 };
@@ -17,8 +17,11 @@ export const headingAccentStyles: React.CSSProperties = {
   clear: "right",
 };
 export const paragraphStyles = {
-  marginBottom: 48,
-  lineHeight: 1.5,
+  maxWidth: 1000,
+  marginBottom: 32,
+  lineHeight: 1.25,
+  fontSize: "1.25rem",
+  font: "baskerville"
 };
 export const codeStyles = {
   color: "#8A6534",
@@ -45,7 +48,7 @@ export const headshotStyle: React.CSSProperties = {
   height: "15rem",
   borderRadius: "50%",
   float: "right",
-  padding: 10,
+  padding: 20,
 };
 export const linkStyle = {
   color: "#8954A8",
