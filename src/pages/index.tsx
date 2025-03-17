@@ -30,20 +30,16 @@ const IndexPage: React.FC<PageProps> = () => {
             </span>
           </h1>
           <p style={paragraphStyles}>
-            <code style={codeStyles}>
               — Hi, I'm Will <span className="waving-hand-emoji">👋</span>
-            </code>
           </p>
           <p style={paragraphStyles}>
-            <code style={codeStyles}>
-              With professional experience in Java, Typescript, Ruby & React,
-              among other languages and frameworks, I am currently working for a
-              global tech consultancy as a full-stack software developer and
-              consultant.
-            </code>
+              I have professional experience working with Java, Typescript & React, 
+              among other languages and frameworks, as well as infrastructure tools 
+              such as AWS, Kubernetes, Docker and Kafka. I am currently working for a
+              US-headquarted tech consultancy, 8th Light Inc, as a Senior Software Engineer and 
+              Consultant.
           </p>
           <p style={paragraphStyles}>
-            <code style={codeStyles}>
               I found software development after a decade in sales and business
               development, predominantly in media, spending the vast majority of
               my time trying to understand client problems and design solutions
@@ -51,18 +47,9 @@ const IndexPage: React.FC<PageProps> = () => {
               engineering, working with colleagues and clients to build
               high-quality software products that are intuitive and
               maintainable.
-            </code>
           </p>
           <p style={paragraphStyles}>
-            <code style={codeStyles}>
-              Previous experience: Ticketmaster, Munich Re Digital Partners, 8th Light
-            </code>
-          </p>
-          <p style={paragraphStyles}>
-            <code style={codeStyles}>
-              For freelance enquires, please contact me via email or linkedin
-              below. Thanks!
-            </code>
+              Previous experience: Ticketmaster, Munich Re Digital Partners, 8th Light.
           </p>
           <footer style={footerStyles}>
             <a href="https://www.linkedin.com/in/william-peake-270189141">
