@@ -21,7 +21,7 @@ export const paragraphStyles = {
   marginBottom: 32,
   lineHeight: 1.25,
   fontSize: "1.25rem",
-  font: "baskerville"
+  font: "baskerville",
 };
 export const codeStyles = {
   color: "#8A6534",
