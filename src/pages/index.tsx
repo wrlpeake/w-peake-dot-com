@@ -49,7 +49,7 @@ const IndexPage: React.FC<PageProps> = () => {
               maintainable.
           </p>
           <p style={paragraphStyles}>
-              Previous experience: Ticketmaster, Munich Re Digital Partners, 8th Light.
+              Previous experience: Ticketmaster, Digital Partners (A Munich Re company), Financial Times, 8th Light.
           </p>
           <footer style={footerStyles}>
             <a href="https://www.linkedin.com/in/william-peake-270189141">
