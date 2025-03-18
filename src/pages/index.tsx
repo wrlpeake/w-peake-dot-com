@@ -1,12 +1,10 @@
-import * as React from "react";
+import React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import {
   pageStyles,
   headingStyles,
   headingAccentStyles,
-  headshotStyle,
   paragraphStyles,
-  codeStyles,
   footerStyles,
   imageLinkStyle,
 } from "../styles/styles";
@@ -74,5 +72,12 @@ export const Head: HeadFC = () => (
   <head>
     <title>William Peake | Software Engineer</title>
     <link rel="icon" type="image/x-icon" href={favicon}></link>
+    <meta charSet="UTF-8" />
+    <meta name="description" content="William Peake - Software Engineer" />
+    <meta
+      name="keywords"
+      content="William Peake, Software, Engineer, Developer"
+    />
+    <meta name="author" content="William Peake" />
   </head>
 );
