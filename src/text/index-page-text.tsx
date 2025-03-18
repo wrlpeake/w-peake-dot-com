@@ -1,6 +1,6 @@
 export const title = "William Peake";
 export const description = "Software Engineer based in London, UK.";
-export const greeting = "— Hi, I'm Will ";
+export const greeting = "— Hi, I'm Will "
 export const technical =
   "I have professional experience working with Java, Typescript & React, among other languages and frameworks," +
   " as well as infrastructure tools such as AWS, Kubernetes, Docker and Kafka. I am currently working for a" +
