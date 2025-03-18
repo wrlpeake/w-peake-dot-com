@@ -8,7 +8,16 @@ import {
   footerStyles,
   imageLinkStyle,
 } from "../styles/styles";
+import {
+  title,
+  description,
+  greeting,
+  technical,
+  history,
+  experience,
+} from "../text/index-page-text";
 import HeadshotComponent from "../components/headshot";
+import RevealTitleText from "../components/text-reveal";
 import linkedin from "../images/linkedin.png";
 import mail from "../images/mail.png";
 import github from "../images/github.png";
@@ -21,35 +30,19 @@ const IndexPage: React.FC<PageProps> = () => {
     <html lang="en">
       <main style={pageStyles}>
         <HeadshotComponent />
-        <h1 style={headingStyles}>
-          William Peake
-          <br />
-          <span style={headingAccentStyles}>
-            Software Engineer based in London, UK.
-          </span>
-        </h1>
+        <RevealTitleText
+          titleText={title}
+          descriptionText={description}
+          titleStyle={headingStyles}
+          descriptionStyle={headingAccentStyles}
+        />
         <p style={paragraphStyles}>
-          — Hi, I'm Will <span className="waving-hand-emoji">👋</span>
+          {greeting}
+          <span className="waving-hand-emoji">👋</span>
         </p>
-        <p style={paragraphStyles}>
-          I have professional experience working with Java, Typescript & React,
-          among other languages and frameworks, as well as infrastructure tools
-          such as AWS, Kubernetes, Docker and Kafka. I am currently working for
-          a US-headquarted tech consultancy, 8th Light Inc, as a Senior Software
-          Engineer and Consultant.
-        </p>
-        <p style={paragraphStyles}>
-          I found software development after a decade in sales and business
-          development, predominantly in media, spending the vast majority of my
-          time trying to understand client problems and design solutions to fit
-          their needs. I apply this same thought process to software
-          engineering, working with colleagues and clients to build high-quality
-          software products that are intuitive and maintainable.
-        </p>
-        <p style={paragraphStyles}>
-          Previous experience: Ticketmaster, Digital Partners (a Munich Re
-          company), Financial Times, 8th Light.
-        </p>
+        <p style={paragraphStyles}>{technical}</p>
+        <p style={paragraphStyles}>{history}</p>
+        <p style={paragraphStyles}>{experience}</p>
         <footer style={footerStyles}>
           <a href="https://www.linkedin.com/in/william-peake-270189141">
             <img src={linkedin} style={imageLinkStyle} alt="LinkedIn icon" />
