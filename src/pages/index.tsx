@@ -50,10 +50,10 @@ export const Head: HeadFC = () => (
     <title>William Peake | Software Engineer</title>
     <link rel="icon" type="image/x-icon" href={favicon}></link>
     <meta charSet="UTF-8" />
-    <meta name="description" content="William Peake - Software Engineer" />
+    <meta name="description" content="William Peake, Software Engineer based in London, UK. My personal website." />
     <meta
       name="keywords"
-      content="William Peake, Software, Engineer, Developer"
+      content="William Peake, Software, Engineer, Developer, Dev"
     />
     <meta name="author" content="William Peake" />
   </head>

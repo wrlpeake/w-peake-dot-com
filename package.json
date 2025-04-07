@@ -29,7 +29,8 @@
     "motion": "^12.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
